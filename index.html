@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario De Registro</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <label for="Name">First Name: *</label>
+            <input type="text" placeholder="First Name">
+        </div>
+        <br>
+        <div>
+            <label for="LastName">Last Name: *</label>
+            <input type="text" placeholder="Last Name">
+        </div>
+        <br>
+        <div>
+            <label for="mail">Email Address: *</label>
+            <input type="mail" placeholder="Email">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password: *</label>
+            <input type="password" placeholder="Password">
+        </div>
+        <br>
+        <div>
+            <label for="confirm_password">Confirm Password: *</label>
+            <input type="password" placeholder="Password">
+        </div>
+        <br>
+        <div>
+            <label for="Birthday">Birthday: *</label>
+            <input type="date">
+        </div>
+        <p>Gender Identity:</p>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="non-binary">Non-binary</label>
+            <input type="radio" name="gender" id="non-binary">
+            <label for="noanswer">I prefer not to answer</label>
+            <input type="radio" name="gender" id="noanswer">
+        </div>
+        <div>
+            <p>A short description about myself</p>
+            <textarea name="comment" id="comment" cols="40" rows="3"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="language">Favorite Language: </label>
+            <select name="language" id="language">
+                <option value="">JavaScript</option>
+                <option value="">Phyton</option>
+                <option value="">Java</option>
+                <option value="">CSS+</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox">
+            <label for="">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+        <p>* Indicates a required field</p>
+    </form>
+</body>
+
+</html>
